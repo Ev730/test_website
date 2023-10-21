@@ -1,18 +1,24 @@
 h1 {
     font-family: Ariel;
-    Color: hotpink;
+    Color: rgb(83, 89, 255);
     }
 
 #otherh1{
-    color: blue;
+    color: rgb(0, 162, 255);
+}
+
+.link1 {
+    color: rgb(195, 184, 255);
+    font-weight: 600;
 }
 
 .list{
-    color: red;
+    color: rgb(255, 101, 101);
+    font-weight: 600;
 }
 
 body{
-    background-color: yellow;
+    background-color: rgb(70, 70, 70);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,12 +27,25 @@ body{
     height: 100%;
 }
 
+#body2{
+    align-items: center;
+    justify-content: center;
+}
+
 p{
-    background-color: blueviolet;
+    background-color: rgb(107, 213, 255, .5);
     font-size: x-large;
     font-family: cursive;
     font-weight: 900;
     color: white;
     width: fit-content;
-    height: 4rem;
+    /*height: 4rem; */
+    padding: 20px;
+    margin: 20px;
+}
+
+#p2 {
+    text-decoration: underline;
+    font-weight: 900;
+    font-style: italic;
 }
