@@ -1,18 +1,18 @@
-h1{
+h1 {
     font-family: Ariel;
-    Color: hsl(0, 0%, 0%);
-}
+    Color: hotpink;
+    }
 
 #otherh1{
-    color: hsl(240, 100%, 50%);
+    color: blue;
 }
 
 .list{
-    color: #1FF1FF;
+    color: red;
 }
 
 body{
-    background-color: grey;
+    background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,10 +22,11 @@ body{
 }
 
 p{
-    background-color: lime;
+    background-color: blueviolet;
     font-size: x-large;
     font-family: cursive;
     font-weight: 900;
+    color: white;
     width: fit-content;
     height: 4rem;
 }
